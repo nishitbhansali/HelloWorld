@@ -24,7 +24,8 @@ public class Test {
 		System.out.println(s.containsAll(l));
 		System.out.println(l.containsAll(s));
 		//System.out.println(s);
-	//	s.clear();
+	
+		s.clear().do();
 		System.out.println(s.contains(3));
 		System.out.println(s.containsAll(l));
 		System.out.println(l.containsAll(s));
